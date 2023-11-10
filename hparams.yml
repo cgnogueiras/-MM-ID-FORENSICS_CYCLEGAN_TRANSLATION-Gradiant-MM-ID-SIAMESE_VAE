@@ -1,0 +1,22 @@
+seed: 42
+
+device: cuda:2
+batch_size: 4
+cp_path: checkpoints_MACRO_DS
+cp_name: siamese_100K_ds
+results_path: siamese_results_100k_ds
+data_path: /media/BM/databases/macro_generated_words/
+annot_path: word_num_cap_en_annot_fix_little.json 
+
+color: RGB
+
+freq_stats: 1
+num_epochs: 50
+latent_dim: 1024
+input_dim: 4000
+
+normalization_mean: [0,0,0]
+normalization_std: [1,1,1]
+
+img_width: 500
+img_heigh: 200

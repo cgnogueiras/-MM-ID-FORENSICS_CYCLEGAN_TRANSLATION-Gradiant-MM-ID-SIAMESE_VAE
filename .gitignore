@@ -1,0 +1,7 @@
+*.json
+*.jpg
+*.png
+.vscode
+siamese_results_100k_ds/
+checkpoints_MACRO_DS/
+__pycache__/
